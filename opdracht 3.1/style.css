@@ -8,8 +8,21 @@
   }
   body {
     font-family: "Goldman",cursive;
-    background-image: url('./8znsp2rrbfgtbhbb.jpg');
+    background-color: black;
   }
+
+  .header{
+    width: 100vw;
+    height: 100vh;
+    background: url("./8znsp2rrbfgtbhbb.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+justify-content: center;
+align-items: center;
+  }
+
   
   nav {
     display: flex;
@@ -45,7 +58,6 @@ color: whitesmoke;
 text-align: center;
 font-weight: bold;
 font-size:80px ;
-padding-top: 9em;
 
   }
   h2
@@ -54,7 +66,6 @@ color: white;
 text-align: center;
 font-weight: bold;
 font-size: 80px;
-padding-top: 0,1em;
 
   }
 
