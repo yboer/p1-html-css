@@ -24,3 +24,22 @@ a{
     color: #8A2BE2;
 text-decoration:none ;
 }
+header{
+  
+  width: 100vw;
+  height: 33vh;
+  background: url("uwp1768536.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.para {
+  color: white;
+}
+article {
+  border:solid 2px black;
+  border-radius: 5px  ;
+  border-left-width: 10px;
+  
+  
+}
