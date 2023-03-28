@@ -4,16 +4,50 @@
     align-items: center;
     width: 200px;
     height: 200px;
-    background: #5a4713;
+    background: ;
     margin: 10px;
-    color: black;
+    
 }
 
 .flex-container {
-    padding: 4%;
     display: flex;
-    background-color: rgb(88, 88, 84);
+   
     height: 100vh;
     width: 100vw;
-    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2rem;
+    flex-direction: row-reverse;
+}
+
+.item1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.item2 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.item3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.item4 {
+    background-color: green;
+    width: 200px;
+    height: 200px;   
+    color: white;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5a4713;
+    overflow-x: hidden;
 }
