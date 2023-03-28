@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    background: #b8b8b8;
+    height: 50vh;   
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background: #254DE4;
+    margin: 10px;
+    color: #fff;
+}

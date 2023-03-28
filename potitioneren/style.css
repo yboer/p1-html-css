@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    min-height: 200vh;
+    overflow-x: hidden;
+}
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+      /* maak gebruik van flexbox   */
+    z-index: 1;
+    display: flex;
+    /* positioneer aan het einde van de nav */
+    justify-content: flex-end;
+    /* positioneer verticaal in het midden */
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+    
+}
+
+.container img{
+    width: 20%;
+
+}
+.
+
+.container h2{
+padding-top: 8rem;
+text-align: center ;
+font-size: 3rem; 
+}
+
+.navbar ul{
+    display: flex;
+    margin-right: 20px;
+
+}
+
+.navbar li{
+    /* dit haalt de punt voor de text weg */
+    list-style-type: none;
+}
+
+.context p{
+width: 30%;
+padding: 20px;
+
+}
+
+.context{
+    display: flex;
+    padding: 10rem;
+    justify-content: space-evenly;
+}

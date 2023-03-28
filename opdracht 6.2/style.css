@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: #5a4713;
+    margin: 10px;
+    color: black;
+}
+
+.flex-container {
+    padding: 4%;
+    display: flex;
+    background-color: rgb(88, 88, 84);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
